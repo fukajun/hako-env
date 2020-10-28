@@ -1,14 +1,12 @@
-require_relative 'lib/hako/envvars/version'
-
 Gem::Specification.new do |spec|
-  spec.name          = "hako-envvars"
-  spec.version       = Hako::Envvars::VERSION
+  spec.name          = "hako-env"
+  spec.version       = '0.0.1'
   spec.authors       = ["Jun Fukaya"]
   spec.email         = ["fukajun.shark@gmail.com"]
 
   spec.summary       = %q{Provide variable from environment to hako}
   spec.description   = %q{Provide variable from environment to hako}
-  spec.homepage      = "https://github.com/fukajun/hako-envvars"
+  spec.homepage      = "https://github.com/fukajun/hako-env"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"

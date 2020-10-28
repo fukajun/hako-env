@@ -4,7 +4,7 @@ require 'hako/env_provider'
 
 module Hako
   module EnvProviders
-    class Envvars < EnvProvider
+    class Env < EnvProvider
       def initialize(_root_path, _options)
       end
 
@@ -26,11 +26,6 @@ module Hako
           keys << ENV.has_key?(key)
         end
         keys
-      end
-
-      private
-      def default_options
-        { 'raise_error' => true }
       end
     end
   end
